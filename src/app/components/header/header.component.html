@@ -1,6 +1,6 @@
 <div class="mt-7 mx-6 md:mx-10 lg:mx-0">
   <div
-    class="flex justify-between min-w-[200px] max-w-[1104px] mx-auto items-center"
+    class="flex justify-between min-w-[200px] max-w-[1104px] mx-auto items-center md:mb-4"
   >
     <a routerLink="/"
       ><img src="../../../assets/images/shared/logo.svg" alt=""
@@ -12,9 +12,7 @@
       <a routerLink="/features">features</a>
       <a routerLink="/pricing">pricing</a>
     </div>
-    <button class="uppercase bg-black text-white py-3 px-6 hidden md:block">
-      get an invite
-    </button>
+    <app-button class="hidden md:block w-[158px]" buttonText="get an invite" bgclr="bg-black"></app-button>
     <div class="flex md:hidden min-h-[36px] min-w-[36px] items-center justify-end" (click)="toggleOn = !toggleOn">
       <img
         src="../../../assets/images/shared/mob-menu.svg"
@@ -36,8 +34,6 @@
     <a routerLink="/features" class="">features</a>
     <a routerLink="/pricing" class="">pricing</a>
     <hr class="h-[2px] bg-black opacity-25" />
-    <button class="uppercase bg-black text-white py-[14px]">
-      get an invite
-    </button>
+    <app-button class="" buttonText="get an invite" bgclr="bg-black"></app-button>
   </div>
 </div>

@@ -10,6 +10,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { FeaturesComponent } from './components/features/features.component';
 import { PricingComponent } from './components/pricing/pricing.component';
+import { DesignSystemModule} from './design-system/design-system.module'
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { PricingComponent } from './components/pricing/pricing.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    DesignSystemModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
