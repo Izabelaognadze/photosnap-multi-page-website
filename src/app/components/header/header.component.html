@@ -8,23 +8,21 @@
     <div
       class="hidden md:flex flex-row gap-[37px] text-xs font-bold tracking-widest uppercase"
     >
-      <a routerLink="/stories" class="">stories</a>
-      <a routerLink="/features" class="">features</a>
-      <a routerLink="/pricing" class="">pricing</a>
+      <a routerLink="/stories">stories</a>
+      <a routerLink="/features">features</a>
+      <a routerLink="/pricing">pricing</a>
     </div>
     <button class="uppercase bg-black text-white py-3 px-6 hidden md:block">
       get an invite
     </button>
-    <div class="block md:hidden" (click)="toggleOn = !toggleOn">
+    <div class="flex md:hidden min-h-[36px] min-w-[36px] items-center justify-end" (click)="toggleOn = !toggleOn">
       <img
         src="../../../assets/images/shared/mob-menu.svg"
-        class=""
         alt=""
         *ngIf="!toggleOn"
       />
       <img
         src="../../../assets/images/shared/mob-close.svg"
-        class=""
         alt=""
         *ngIf="toggleOn"
       />
