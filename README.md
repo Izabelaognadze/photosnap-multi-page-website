@@ -34,8 +34,8 @@ My users should be able to:
 
 ### Links
 
-- Solution URL: [solution URL here]()
-- Live Site URL: [live URL here]()
+- Solution URL: [solution URL here](https://github.com/Izabelaognadze/photosnap-multi-page-website)
+- Live Site URL: [live URL here](https://izabelaognadze.github.io/photosnap-multi-page-website/)
 
 ### Start the app
 
