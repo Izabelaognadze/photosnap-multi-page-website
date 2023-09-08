@@ -1,11 +1,13 @@
 <div class="text-white bg-black">
-    <div class="flex flex-col md:flex-row max-w-[1104px] mx-auto  items-center py-14">
-      <div class="space-y-8 flex flex-col justify-between">
-        <img
-          class="max-w-[170px]"
-          src="../../../assets/images/shared/logo-white.svg"
-          alt=""
-        />
+    <div class="flex flex-col md:flex-row max-w-[1104px] mx-auto  items-center py-14 md:justify-between lg:justify-normal">
+      <div class="space-y-8 flex flex-col justify-between md:space-y-32">
+        <a routerLink="/">
+            <img
+              class="max-w-[170px]"
+              src="../../../assets/images/shared/logo-white.svg"
+              alt=""
+            />
+        </a>
         <svg xmlns="http://www.w3.org/2000/svg" width="154" height="20" viewBox="0 0 154 20" fill="none">
             <path d="M18.8958 0H1.10417C0.494167 0 0 0.494167 0 1.10417V18.8967C0 19.5058 0.494167 20 1.10417 20H10.6833V12.255H8.07667V9.23667H10.6833V7.01083C10.6833 4.4275 12.2608 3.02083 14.5658 3.02083C15.67 3.02083 16.6183 3.10333 16.895 3.14V5.84L15.2967 5.84083C14.0433 5.84083 13.8008 6.43667 13.8008 7.31V9.2375H16.79L16.4008 12.2558H13.8008V20H18.8975C19.5058 20 20 19.5058 20 18.8958V1.10417C20 0.494167 19.5058 0 18.8958 0Z" fill="white"/>
             <path fill-rule="evenodd" clip-rule="evenodd" d="M143.333 0C140.617 0 140.277 0.0116667 139.211 0.06C135.579 0.226667 133.561 2.24167 133.394 5.87667C133.345 6.94417 133.333 7.28417 133.333 10C133.333 12.7158 133.345 13.0567 133.393 14.1233C133.56 17.755 135.575 19.7733 139.21 19.94C140.277 19.9883 140.617 20 143.333 20C146.049 20 146.39 19.9883 147.457 19.94C151.085 19.7733 153.108 17.7583 153.272 14.1233C153.322 13.0567 153.333 12.7158 153.333 10C153.333 7.28417 153.322 6.94417 153.273 5.8775C153.11 2.24917 151.092 0.2275 147.457 0.0608333C146.39 0.0116667 146.049 0 143.333 0ZM143.333 1.8025C146.003 1.8025 146.32 1.8125 147.375 1.86083C150.085 1.98417 151.351 3.27 151.474 5.96C151.522 7.01417 151.532 7.33083 151.532 10.0008C151.532 12.6717 151.522 12.9875 151.474 14.0417C151.35 16.7292 150.087 18.0175 147.375 18.1408C146.32 18.1892 146.005 18.1992 143.333 18.1992C140.663 18.1992 140.347 18.1892 139.292 18.1408C136.576 18.0167 135.317 16.725 135.193 14.0408C135.145 12.9867 135.135 12.6708 135.135 10C135.135 7.33 135.146 7.01417 135.193 5.95917C135.317 3.27 136.58 1.98333 139.292 1.86C140.347 1.8125 140.663 1.8025 143.333 1.8025ZM138.198 10C138.198 7.16417 140.497 4.865 143.333 4.865C146.169 4.865 148.468 7.16417 148.468 10C148.468 12.8367 146.169 15.1358 143.333 15.1358C140.497 15.1358 138.198 12.8358 138.198 10ZM143.333 13.3333C141.492 13.3333 140 11.8417 140 10C140 8.15917 141.492 6.66667 143.333 6.66667C145.174 6.66667 146.667 8.15917 146.667 10C146.667 11.8417 145.174 13.3333 143.333 13.3333ZM147.471 4.6625C147.471 4 148.008 3.4625 148.672 3.4625C149.334 3.4625 149.871 4 149.871 4.6625C149.871 5.325 149.334 5.8625 148.672 5.8625C148.008 5.8625 147.471 5.325 147.471 4.6625Z" fill="white"/>
@@ -14,14 +16,16 @@
             <path fill-rule="evenodd" clip-rule="evenodd" d="M43.3333 0C37.8108 0 33.3333 4.4775 33.3333 10C33.3333 15.5225 37.8108 20 43.3333 20C48.8558 20 53.3333 15.5225 53.3333 10C53.3333 4.4775 48.8558 0 43.3333 0ZM47.0341 14.0767C45.2824 14.1967 41.3808 14.1967 39.6316 14.0767C37.7349 13.9467 37.5141 13.0183 37.4999 10C37.5141 6.97583 37.7374 6.05333 39.6316 5.92333C41.3808 5.80333 45.2833 5.80333 47.0341 5.92333C48.9316 6.05333 49.1516 6.98167 49.1666 10C49.1516 13.0242 48.9291 13.9467 47.0341 14.0767ZM45.7641 9.99667L41.6666 8.04833V11.9517L45.7641 9.99667Z" fill="white"/>
           </svg>
       </div>
-      <div class="flex flex-col md:flex-row lg:flex-col mb-[119px] mt-[49px] uppercase text-center gap-5">
-          <a routerLink="/">home</a>
-          <a routerLink="/stories">stories</a>
-          <a routerLink="/features">features</a>
-          <a routerLink="/pricing">pricing</a>
+      <div class="flex flex-col md:absolute lg:static md:flex-row lg:flex-col mb-[119px] md:mb-0 mt-[49px] md:mt-0 uppercase text-center gap-5">
+          <a class="hover:opacity-30" routerLink="/">home</a>
+          <a class="hover:opacity-30" routerLink="/stories">stories</a>
+          <a class="hover:opacity-30" routerLink="/features">features</a>
+          <a class="hover:opacity-30" routerLink="/pricing">pricing</a>
       </div>
-      <div class="flex flex-col space-y-8">
-        <app-button bgclr="white" buttonText="Get an invite"></app-button>
+      <div class="flex flex-col md:items-end w-full space-y-8 md:space-y-32 items-center">
+        <div class="max-w-[172px]">
+            <app-arrow-button arrowButtonText="GET AN INVITE"></app-arrow-button>
+        </div>
         <p class="text-white text-center text- font-normal text-[15px] opacity-50">
           Copyright 2019. All Rights Reserved
         </p>
