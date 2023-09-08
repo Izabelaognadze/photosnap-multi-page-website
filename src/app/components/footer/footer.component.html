@@ -1,34 +1,68 @@
 <div class="text-white bg-black">
-    <div class="flex flex-col md:flex-row max-w-[1104px] mx-auto  items-center py-14 md:justify-between lg:justify-normal">
-      <div class="space-y-8 flex flex-col justify-between md:space-y-32">
-        <a routerLink="/">
-            <img
-              class="max-w-[170px]"
-              src="../../../assets/images/shared/logo-white.svg"
-              alt=""
-            />
-        </a>
-        <svg xmlns="http://www.w3.org/2000/svg" width="154" height="20" viewBox="0 0 154 20" fill="none">
-            <path d="M18.8958 0H1.10417C0.494167 0 0 0.494167 0 1.10417V18.8967C0 19.5058 0.494167 20 1.10417 20H10.6833V12.255H8.07667V9.23667H10.6833V7.01083C10.6833 4.4275 12.2608 3.02083 14.5658 3.02083C15.67 3.02083 16.6183 3.10333 16.895 3.14V5.84L15.2967 5.84083C14.0433 5.84083 13.8008 6.43667 13.8008 7.31V9.2375H16.79L16.4008 12.2558H13.8008V20H18.8975C19.5058 20 20 19.5058 20 18.8958V1.10417C20 0.494167 19.5058 0 18.8958 0Z" fill="white"/>
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M143.333 0C140.617 0 140.277 0.0116667 139.211 0.06C135.579 0.226667 133.561 2.24167 133.394 5.87667C133.345 6.94417 133.333 7.28417 133.333 10C133.333 12.7158 133.345 13.0567 133.393 14.1233C133.56 17.755 135.575 19.7733 139.21 19.94C140.277 19.9883 140.617 20 143.333 20C146.049 20 146.39 19.9883 147.457 19.94C151.085 19.7733 153.108 17.7583 153.272 14.1233C153.322 13.0567 153.333 12.7158 153.333 10C153.333 7.28417 153.322 6.94417 153.273 5.8775C153.11 2.24917 151.092 0.2275 147.457 0.0608333C146.39 0.0116667 146.049 0 143.333 0ZM143.333 1.8025C146.003 1.8025 146.32 1.8125 147.375 1.86083C150.085 1.98417 151.351 3.27 151.474 5.96C151.522 7.01417 151.532 7.33083 151.532 10.0008C151.532 12.6717 151.522 12.9875 151.474 14.0417C151.35 16.7292 150.087 18.0175 147.375 18.1408C146.32 18.1892 146.005 18.1992 143.333 18.1992C140.663 18.1992 140.347 18.1892 139.292 18.1408C136.576 18.0167 135.317 16.725 135.193 14.0408C135.145 12.9867 135.135 12.6708 135.135 10C135.135 7.33 135.146 7.01417 135.193 5.95917C135.317 3.27 136.58 1.98333 139.292 1.86C140.347 1.8125 140.663 1.8025 143.333 1.8025ZM138.198 10C138.198 7.16417 140.497 4.865 143.333 4.865C146.169 4.865 148.468 7.16417 148.468 10C148.468 12.8367 146.169 15.1358 143.333 15.1358C140.497 15.1358 138.198 12.8358 138.198 10ZM143.333 13.3333C141.492 13.3333 140 11.8417 140 10C140 8.15917 141.492 6.66667 143.333 6.66667C145.174 6.66667 146.667 8.15917 146.667 10C146.667 11.8417 145.174 13.3333 143.333 13.3333ZM147.471 4.6625C147.471 4 148.008 3.4625 148.672 3.4625C149.334 3.4625 149.871 4 149.871 4.6625C149.871 5.325 149.334 5.8625 148.672 5.8625C148.008 5.8625 147.471 5.325 147.471 4.6625Z" fill="white"/>
-            <path d="M110 0C104.477 0 100 4.47667 100 10C100 14.2367 102.636 17.855 106.356 19.3117C106.268 18.5208 106.189 17.3075 106.391 16.4442C106.573 15.6633 107.563 11.4733 107.563 11.4733C107.563 11.4733 107.264 10.8742 107.264 9.98833C107.264 8.59833 108.07 7.56 109.073 7.56C109.926 7.56 110.338 8.20083 110.338 8.96833C110.338 9.82583 109.793 11.1083 109.51 12.2975C109.274 13.2925 110.009 14.105 110.991 14.105C112.768 14.105 114.134 12.2308 114.134 9.52583C114.134 7.13167 112.414 5.4575 109.958 5.4575C107.113 5.4575 105.443 7.59167 105.443 9.79667C105.443 10.6558 105.773 11.5783 106.187 12.0783C106.268 12.1775 106.28 12.265 106.256 12.3658L105.978 13.4992C105.934 13.6825 105.833 13.7217 105.643 13.6333C104.394 13.0517 103.613 11.2258 103.613 9.75917C103.613 6.605 105.905 3.7075 110.221 3.7075C113.69 3.7075 116.386 6.18 116.386 9.48333C116.386 12.93 114.213 15.7033 111.197 15.7033C110.183 15.7033 109.231 15.1775 108.905 14.555L108.282 16.9325C108.056 17.8017 107.447 18.8908 107.038 19.5542C107.975 19.8433 108.969 20 110 20C115.523 20 120 15.5225 120 10C120 4.47667 115.523 0 110 0Z" fill="white"/>
-            <path d="M86.6667 3.79746C85.9309 4.12412 85.1401 4.34412 84.3101 4.44329C85.1576 3.93579 85.8084 3.13162 86.1142 2.17329C85.3217 2.64329 84.4434 2.98496 83.5084 3.16912C82.7609 2.37162 81.6934 1.87329 80.5134 1.87329C77.8642 1.87329 75.9176 4.34496 76.5159 6.91079C73.1067 6.73996 70.0834 5.10662 68.0592 2.62412C66.9842 4.46829 67.5017 6.88079 69.3284 8.10246C68.6567 8.08079 68.0234 7.89662 67.4709 7.58912C67.4259 9.48996 68.7884 11.2683 70.7617 11.6641C70.1842 11.8208 69.5517 11.8575 68.9084 11.7341C69.4301 13.3641 70.9451 14.55 72.7417 14.5833C71.0167 15.9358 68.8434 16.54 66.6667 16.2833C68.4826 17.4475 70.6401 18.1266 72.9567 18.1266C80.5751 18.1266 84.8792 11.6925 84.6192 5.92162C85.4209 5.34246 86.1167 4.61996 86.6667 3.79746Z" fill="white"/>
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M43.3333 0C37.8108 0 33.3333 4.4775 33.3333 10C33.3333 15.5225 37.8108 20 43.3333 20C48.8558 20 53.3333 15.5225 53.3333 10C53.3333 4.4775 48.8558 0 43.3333 0ZM47.0341 14.0767C45.2824 14.1967 41.3808 14.1967 39.6316 14.0767C37.7349 13.9467 37.5141 13.0183 37.4999 10C37.5141 6.97583 37.7374 6.05333 39.6316 5.92333C41.3808 5.80333 45.2833 5.80333 47.0341 5.92333C48.9316 6.05333 49.1516 6.98167 49.1666 10C49.1516 13.0242 48.9291 13.9467 47.0341 14.0767ZM45.7641 9.99667L41.6666 8.04833V11.9517L45.7641 9.99667Z" fill="white"/>
-          </svg>
-      </div>
-      <div class="flex flex-col md:absolute lg:static md:flex-row lg:flex-col mb-[119px] md:mb-0 mt-[49px] md:mt-0 uppercase text-center gap-5">
-          <a class="hover:opacity-30" routerLink="/">home</a>
-          <a class="hover:opacity-30" routerLink="/stories">stories</a>
-          <a class="hover:opacity-30" routerLink="/features">features</a>
-          <a class="hover:opacity-30" routerLink="/pricing">pricing</a>
-      </div>
-      <div class="flex flex-col md:items-end w-full space-y-8 md:space-y-32 items-center">
-        <div class="max-w-[172px]">
-            <app-arrow-button arrowButtonText="GET AN INVITE"></app-arrow-button>
+  <div
+    class="flex flex-col md:flex-row max-w-[1104px] mx-auto items-center py-14 md:justify-between lg:justify-normal md:mx-10 lg:mx-auto"
+  >
+    <div class="space-y-8 flex flex-col justify-between md:space-y-32">
+      <a routerLink="/">
+        <img
+          class="max-w-[170px]"
+          src="../../../assets/images/shared/logo-white.svg"
+          alt=""
+        />
+      </a>
+      <!-- warning - icon colors on hover  -->
+      <div class="flex relative w-[154px] justify-between">
+        <div class="logo-container">
+          <a href=""
+            ><img src="../../../assets/images/shared/facebook-white.svg" alt=""
+          /></a>
+          <a href=""><img src="../../../assets/images/shared/facebook.svg" alt=""></a>
         </div>
-        <p class="text-white text-center text- font-normal text-[15px] opacity-50">
-          Copyright 2019. All Rights Reserved
-        </p>
+        <div class="logo-container">
+            <a href=""
+              ><img src="../../../assets/images/shared/youtube-white.svg" alt=""
+            /></a>
+            <a href=""><img src="../../../assets/images/shared/youtube.svg" alt=""></a>
+          </div>
+          <div class="logo-container">
+            <a href=""
+              ><img src="../../../assets/images/shared/twitter-white.svg" alt=""
+            /></a>
+            <a href=""><img src="../../../assets/images/shared/twitter.svg" alt=""></a>
+          </div>
+          <div class="logo-container">
+            <a href=""
+              ><img src="../../../assets/images/shared/pinterest-white.svg" alt=""
+            /></a>
+            <a href=""><img src="../../../assets/images/shared/pinterest.svg" alt=""></a>
+          </div>
+          <div class="logo-container">
+            <a href=""
+              ><img src="../../../assets/images/shared/instagram-white.svg" alt=""
+            /></a>
+            <a href=""><img src="../../../assets/images/shared/instagram.svg" alt=""></a>
+          </div>
       </div>
     </div>
+    <div
+      class="flex flex-col md:absolute lg:static md:flex-row lg:flex-col mb-[119px] md:mb-0 mt-[49px] md:mt-0 uppercase text-center gap-5 lg:gap-7 lg:ml-[109px] md:text-start"
+    >
+      <a class="hover:opacity-30" routerLink="/">home</a>
+      <a class="hover:opacity-30" routerLink="/stories">stories</a>
+      <a class="hover:opacity-30" routerLink="/features">features</a>
+      <a class="hover:opacity-30" routerLink="/pricing">pricing</a>
+    </div>
+    <div
+      class="flex flex-col md:items-end w-full space-y-8 md:space-y-32 items-center"
+    >
+      <div class="max-w-[172px]">
+        <app-arrow-button arrowButtonText="GET AN INVITE"></app-arrow-button>
+      </div>
+      <p
+        class="text-white text-center text- font-normal text-[15px] opacity-50"
+      >
+        Copyright 2019. All Rights Reserved
+      </p>
+    </div>
+  </div>
 </div>

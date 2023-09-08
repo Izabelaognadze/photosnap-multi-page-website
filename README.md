@@ -1,6 +1,6 @@
 # Photosnap Multi Page Website - Angular + TypeScript + Tailwind CSS
 
-![Design preview for the Designo Agency Website Challenge coding challenge](./src/assets/preview.jpg)
+![Design preview for the Designo Agency Website Challenge coding challenge](./src/assets/images/preview.jpg)
 
 Welcome! 👋
 
