@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { ButtonComponent } from './button/button.component';
 import { ArrowButtonComponent } from './arrow-button/arrow-button.component';
 import { SiteInfoComponent } from './site-info/site-info.component';
+import { BetaSectionComponent } from './beta-section/beta-section.component';
 
 
 
@@ -10,7 +11,8 @@ import { SiteInfoComponent } from './site-info/site-info.component';
   declarations: [
     ButtonComponent,
     ArrowButtonComponent,
-    SiteInfoComponent
+    SiteInfoComponent,
+    BetaSectionComponent
   ],
   imports: [
     CommonModule
@@ -19,6 +21,7 @@ import { SiteInfoComponent } from './site-info/site-info.component';
     ButtonComponent,
     ArrowButtonComponent,
     SiteInfoComponent,
+    BetaSectionComponent,
   ]
 })
 export class DesignSystemModule { }

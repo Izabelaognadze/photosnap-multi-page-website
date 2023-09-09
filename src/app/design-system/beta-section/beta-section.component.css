@@ -1,0 +1,17 @@
+.bgImg {
+  background-image: url("../../../assets/images/shared/mob-bg-beta.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (min-width: 600px) {
+  .bgImg {
+    background-image: url("../../../assets/images/shared/tab-bg-beta.jpg");
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .bgImg {
+    background-image: url("../../../assets/images/shared/bg-beta.jpg");
+  }
+}
