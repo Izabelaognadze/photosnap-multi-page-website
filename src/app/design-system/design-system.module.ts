@@ -4,6 +4,7 @@ import { ButtonComponent } from './button/button.component';
 import { ArrowButtonComponent } from './arrow-button/arrow-button.component';
 import { SiteInfoComponent } from './site-info/site-info.component';
 import { BetaSectionComponent } from './beta-section/beta-section.component';
+import { HeroSectionComponent } from './hero-section/hero-section.component';
 
 
 
@@ -12,7 +13,8 @@ import { BetaSectionComponent } from './beta-section/beta-section.component';
     ButtonComponent,
     ArrowButtonComponent,
     SiteInfoComponent,
-    BetaSectionComponent
+    BetaSectionComponent,
+    HeroSectionComponent
   ],
   imports: [
     CommonModule
@@ -22,6 +24,7 @@ import { BetaSectionComponent } from './beta-section/beta-section.component';
     ArrowButtonComponent,
     SiteInfoComponent,
     BetaSectionComponent,
+    HeroSectionComponent,
   ]
 })
 export class DesignSystemModule { }
