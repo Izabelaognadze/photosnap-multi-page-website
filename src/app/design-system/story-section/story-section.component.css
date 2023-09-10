@@ -1,0 +1,11 @@
+.bgImg {
+  background-image: var(mobImg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (min-width: 768px) {
+  .bgImg {
+    background-image: var(tabImg);
+  }
+}
