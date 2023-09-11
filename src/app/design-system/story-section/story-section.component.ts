@@ -8,6 +8,9 @@ import { Component, Input, OnInit } from '@angular/core';
 export class StorySectionComponent implements OnInit{
   @Input() public mobImg = "";
   @Input() public deskImg = "";
+  @Input() public storyHeader = "";
+  @Input() public by = "";
+  @Input() public time = "";
 
   constructor(){}
   ngOnInit(): void {

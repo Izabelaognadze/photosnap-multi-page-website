@@ -1,10 +1,15 @@
 <app-header></app-header>
-<div class="mb-[112px]">
+<div class="">
     <app-hero-section arrowButtonText="GET AN INVITE" heroHeader="Create and share your photo stories. " heroParagr="Photosnap is a platform for photographers and visual storytellers. We make it easy to share photos, tell stories and connect with others." bgClr = 'black' mobImg = "../../../assets/images/home/mob-create-and-share.jpg" tabImg = "../../../assets/images/home/tab-create-and-share.jpg" deskImg = "../../../assets/images/home/create-and-share.jpg"></app-hero-section>
     <app-hero-section arrowButtonText="VIEW THE STORIES" heroHeader="BEAUTIFUL STORIES EVERY TIME" heroParagr="We provide design templates to ensure your stories look terrific. Easily add photos, text, embed maps and media from other networks. Then share your story with everyone." ImageFirst="yes" mobImg = "../../../assets/images/home/mob-beautiful-stories.jpg" tabImg = "../../../assets/images/home/tab-beautiful-stories.jpg" deskImg = "../../../assets/images/home/beautiful-stories.jpg"></app-hero-section>
     <app-hero-section arrowButtonText="VIEW THE STORIES" heroHeader="DESIGNED FOR EVERYONE" heroParagr="Photosnap can help you create stories that resonate with your audience.  Our tool is designed for photographers of all levels, brands, businesses you name it. " mobImg = "../../../assets/images/home/mob-designed-for-everyone.jpg" tabImg = "../../../assets/images/home/tab-designed-for-everyone.jpg" deskImg = "../../../assets/images/home/designed-for-everyone.jpg"></app-hero-section>
 </div>
-<p class="text-4xl text-red-500 text-center">home works</p>
+<div class="mb-[112px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+    <app-story-section time="" storyHeader="The Mountains" by="by John Appleseed" mobImg="../../../assets/images/stories/mobile/mountains.jpg" deskImg="../../../assets/images/stories/desktop/mountains.jpg"></app-story-section>
+    <app-story-section time="" storyHeader="Sunset Cityscapes" by="by Benjamin Cruz" mobImg="../../../assets/images/stories/mobile/cityscapes.jpg" deskImg="../../../assets/images/stories/desktop/cityscapes.jpg"></app-story-section>
+    <app-story-section time="" storyHeader="18 Days Voyage" by="by Alexei Borodin" mobImg="../../../assets/images/stories/mobile/18-days-voyage.jpg" deskImg="../../../assets/images/stories/desktop/18-days-voyage.jpg"></app-story-section>
+    <app-story-section time="" storyHeader="Architecturals" by="by Samantha Brooke" mobImg="../../../assets/images/stories/mobile/architecturals.jpg" deskImg="../../../assets/images/stories/desktop/architecturals.jpg"></app-story-section>
+</div>
 <div class="flex flex-col lg:flex-row max-w-[1104px] mx-auto md:mx-10 lg:mx-auto gap-y-[56px] md:gap-y-[72px] lg:gap-y-[104px] mb-[91px] md:mb-[112px] lg:mb-[160px]">
     <app-site-info srcImg="../../../assets/images/features/responsive.svg" header="100% Responsive" paragraph="No matter which the device you&apos;re on, our site is fully responsive and stories look beautiful on any screen."></app-site-info>
     <app-site-info srcImg="../../../assets/images/features/no-limit.svg" header="No Photo Upload Limit" paragraph="Our tool has no limits on uploads or bandwidth. Freely upload in bulk and share all of your stories in one go."></app-site-info>
