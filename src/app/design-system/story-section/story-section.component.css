@@ -1,11 +1,11 @@
 .bgImg {
-  background-image: /;
+  background-image: url("../../../assets/images/stories/mobile/18-days-voyage.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 @media only screen and (min-width: 768px) {
   .bgImg {
-    background-image: var(tabImg);
+    background-image: url("../../../assets/images/stories/desktop/18-days-voyage.jpg");
   }
 }
