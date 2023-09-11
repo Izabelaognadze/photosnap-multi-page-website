@@ -1,14 +1,14 @@
-<div class="flex flex-col md:flex-row-reverse">
+<div [class] ="ImageFirst === 'yes' ? 'md:flex-row' : 'md:flex-row-reverse'  "class="flex flex-col">
     <img class="md:hidden w-full" src={{mobImg}} alt="">
     <img class="hidden md:block lg:hidden md:w-[40%]" src={{tabImg}} alt="">
     <img class="hidden md:hidden lg:block lg:w-[60%]" src={{deskImg}} alt="">
     <div [class]="bgClr === 'black' ? 'bg-black text-white' : 'bg-white text-black'" class="md:w-[60%] lg:w-[40%] flex justify-center">
         <div class="w-36 h-[6px] bg-gradient-to-r from-clrFrom via-clrVia to-clrTo absolute left-8 md:left-0 md:rotate-90 md:origin-bottom-left md:bg-gradient-to-l md:top-[40%]"></div>
-        <div class="flex flex-col gap-y-4 md:gap-y-[21px] my-[72px] mx-7 md:mx-0 md:my-auto">
-            <h2 class="uppercase text-[32px] md:text-[40px] font-bold leading-10 md:leading-[48px] tracking-[3.33px] md:tracking-[4.1px]">FEATURES</h2>
-            <p class="opacity-60 text-[15px] leading-[25px] max-w-[387px]">We make sure all of our features are designed to be loved by every aspiring and even professional photograpers who wanted to share their stories.</p>
-            <div [class]="buttonHidden === 'hidden' ? 'hidden' : 'block'" class="">
-                <app-arrow-button [textClr]="bgClr === 'black' ? 'white' : 'black'" arrowButtonText="GET AN INVITE" ></app-arrow-button>
+        <div class="flex flex-col my-[72px] mx-7 md:mx-0 md:my-auto">
+            <h2 class="uppercase text-[32px] md:text-[40px] font-bold leading-10 md:leading-[48px] tracking-[3.33px] md:tracking-[4.1px]">{{heroHeader}}</h2>
+            <p class="opacity-60 text-[15px] leading-[25px] max-w-[387px] mt-4 md:mt-[21px]">{{heroParagr}}</p>
+            <div [class]="buttonHidden === 'hidden' ? 'hidden' : 'block'" class="mt-6 md:mt-12 max-w-[205px]">
+                <app-arrow-button [textClr]="bgClr === 'black' ? 'white' : 'black'" arrowButtonText={{arrowButtonText}} ></app-arrow-button>
             </div>
         </div>
     </div>

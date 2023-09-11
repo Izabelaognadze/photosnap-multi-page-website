@@ -11,6 +11,10 @@ export class HeroSectionComponent implements OnInit {
   @Input() public deskImg = "";
   @Input() public buttonHidden = "";
   @Input() public bgClr = "";
+  @Input() public ImageFirst = "";
+  @Input() public heroHeader = "";
+  @Input() public heroParagr = "";
+  @Input() public arrowButtonText =""
 
   constructor(){}
   ngOnInit(): void {
