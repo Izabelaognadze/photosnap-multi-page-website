@@ -1,0 +1,13 @@
+@media only screen and (min-width: 768px) {
+  .bgImg {
+    background-image: url("../../../assets/images/stories/desktop/tab-moon-of-appalacia.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .bgImg {
+    background-image: url("../../../assets/images/stories/desktop/moon-of-appalacia.jpg");
+  }
+}

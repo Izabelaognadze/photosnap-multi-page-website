@@ -6,6 +6,7 @@ import { SiteInfoComponent } from './site-info/site-info.component';
 import { BetaSectionComponent } from './beta-section/beta-section.component';
 import { HeroSectionComponent } from './hero-section/hero-section.component';
 import { StorySectionComponent } from './story-section/story-section.component';
+import { StoryMainContentComponent } from './story-main-content/story-main-content.component';
 
 
 
@@ -16,7 +17,8 @@ import { StorySectionComponent } from './story-section/story-section.component';
     SiteInfoComponent,
     BetaSectionComponent,
     HeroSectionComponent,
-    StorySectionComponent
+    StorySectionComponent,
+    StoryMainContentComponent
   ],
   imports: [
     CommonModule
@@ -28,6 +30,7 @@ import { StorySectionComponent } from './story-section/story-section.component';
     BetaSectionComponent,
     HeroSectionComponent,
     StorySectionComponent,
+    StoryMainContentComponent,
   ]
 })
 export class DesignSystemModule { }
