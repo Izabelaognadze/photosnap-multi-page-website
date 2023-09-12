@@ -7,6 +7,8 @@ import { BetaSectionComponent } from './beta-section/beta-section.component';
 import { HeroSectionComponent } from './hero-section/hero-section.component';
 import { StorySectionComponent } from './story-section/story-section.component';
 import { StoryMainContentComponent } from './story-main-content/story-main-content.component';
+import { SwitchComponent } from './switch/switch.component';
+import { CompareComponent } from './compare/compare.component';
 
 
 
@@ -18,7 +20,9 @@ import { StoryMainContentComponent } from './story-main-content/story-main-conte
     BetaSectionComponent,
     HeroSectionComponent,
     StorySectionComponent,
-    StoryMainContentComponent
+    StoryMainContentComponent,
+    SwitchComponent,
+    CompareComponent
   ],
   imports: [
     CommonModule
@@ -31,6 +35,8 @@ import { StoryMainContentComponent } from './story-main-content/story-main-conte
     HeroSectionComponent,
     StorySectionComponent,
     StoryMainContentComponent,
+    SwitchComponent,
+    CompareComponent,
   ]
 })
 export class DesignSystemModule { }

@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       colors:{
         clrLightGrey:"#DFDFDF",
+        clrpricingBg:"#F5F5F5",
         clrFrom:"#FFC593",
         clrVia:"#BC7198",
         clrTo:"#5A77FF",

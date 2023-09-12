@@ -1,0 +1,35 @@
+label {
+  cursor: pointer;
+  text-indent: -9999px;
+  width: 64px;
+  height: 32px;
+  background: grey;
+  display: block;
+  border-radius: 100px;
+  position: relative;
+}
+
+label:after {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 24px;
+  height: 24px;
+  background: #fff;
+  border-radius: 90px;
+  transition: 0.3s;
+}
+
+input:checked + label {
+  background: black;
+}
+
+input:checked + label:after {
+  left: calc(100% - 4px);
+  transform: translateX(-100%);
+}
+
+label:active:after {
+  width: 20px;
+}

@@ -1,5 +1,5 @@
 .bgImg {
-  background-image: url("../../../assets/images/stories/mobile/18-days-voyage.jpg");
+  background-image: var($mobImg);
   background-repeat: no-repeat;
   -o-background-size: 100% 100%;
   -webkit-background-size: 100% 100%;
@@ -9,6 +9,6 @@
 
 @media only screen and (min-width: 768px) {
   .bgImg {
-    background-image: url("../../../assets/images/stories/desktop/18-days-voyage.jpg");
+    background-image: var($deskImg);
   }
 }
