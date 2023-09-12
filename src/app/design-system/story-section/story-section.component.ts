@@ -16,4 +16,10 @@ export class StorySectionComponent implements OnInit{
   ngOnInit(): void {
     
   }
+  getDeskBgStyle(){
+    return `url(${this.deskImg})`
+  }
+  getMobBgStyle(){
+    return `url(${this.mobImg})`
+  }
 }

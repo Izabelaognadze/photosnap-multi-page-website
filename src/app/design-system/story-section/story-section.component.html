@@ -1,4 +1,19 @@
-<div class="bgImg h-[400px] md:h-[600px] text-white flex flex-col justify-end text-[13px] group hover:-translate-y-5">
+<div [ngStyle]="{'background-image': getDeskBgStyle()}"  class="bgImg hidden  md:flex h-[400px] md:h-[600px] text-white  flex-col justify-end text-[13px] group hover:-translate-y-5 hover:duration-500">
+  <div class="px-10">{{ time }}</div>
+  <div class="my-1 text-[18px] font-bold leading-[25px] px-10">
+    {{ storyHeader }}
+  </div>
+  <div class="px-10">{{ by }}</div>
+  <hr class="my-4 opacity-60 px-10" />
+  <div class="mb-10 mt-1 px-10">
+    <app-arrow-button arrowButtonText="READ STORY"></app-arrow-button>
+  </div>
+  <div
+    class="bg-gradient-to-tr from-clrFrom via-clrVia to-clrTo h-[6px] w-full hidden group-hover:block"
+  ></div>
+</div>
+
+<div [ngStyle]="{'background-image': getMobBgStyle()}"  class="bgImg md:hidden h-[400px] md:h-[600px] text-white flex flex-col justify-end text-[13px] group hover:-translate-y-5">
   <div class="px-10">{{ time }}</div>
   <div class="my-1 text-[18px] font-bold leading-[25px] px-10">
     {{ storyHeader }}
