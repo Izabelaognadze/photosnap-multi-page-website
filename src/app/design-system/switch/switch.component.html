@@ -1,5 +1,5 @@
 <div class="flex flex-col">
-    <div class="flex gap-x-8 justify-center">
+    <div class="flex gap-x-8 justify-center mb-10">
         <div *ngIf="!switchOn" class="font-bold text-lg capitalize leading-[25px] my-auto text-black">monthly</div>
         <div *ngIf="switchOn" class="font-bold text-lg capitalize leading-[25px] my-auto text-clrLightGrey ">monthly</div>
         <div>
@@ -11,16 +11,17 @@
     </div>
 
 
-    <div class="flex flex-col lg:flex-row mt-10 max-w-[1104px] lg:mx-auto lg:justify-between space-x-[30px]">
-        <div class="bg-clrpricingBg lg:w-[350px] mx-8 md:mx-10 lg:mx-0 text-center md:text-start lg:text-center md:px-10">
+    <div class="flex flex-col lg:flex-row max-w-[1104px] lg:mx-auto lg:justify-between lg:space-x-[30px] lg:my-auto gap-y-6 mb-16 md:mb-[112px] lg:mb-40">
+        
+        <div class="bg-clrpricingBg  mx-8 md:mx-10 lg:mx-0 text-center md:text-start lg:text-center md:px-10 lg:my-auto">
             <div class="flex flex-col md:flex-row md:justify-between lg:flex-col">
-                <div class="mt-14 md:mt-10 lg:mt-14 max-w-[270px]">
+                <div class="mt-14 md:mt-10 lg:mt-14 md:max-w-[270px]">
                     <h4 class="font-bold text-2xl leading-[25px]">Basic</h4>
                     <p class="mt-4 text-[15px] leading-[25px] opacity-60 px-[22px] md:px-0 lg:px-[22px]">Includes basic usage of our platform. Recommended for new and aspiring photographers.</p>
                 </div>
                 <div class="mt-10 md:text-end lg:text-center">
-                    <p class="text-[40px] leading-12 tracking-[4.2px] font-bold">$19.00</p>
-                    <p class="opacity-60 text-15px leading-6">per month</p>
+                    <p class="text-[40px] leading-12 tracking-[4.2px] font-bold"><span *ngIf="!switchOn">$19.00</span><span *ngIf="switchOn">$190.00</span></p>
+                    <p class="opacity-60 text-15px leading-6"><span *ngIf="!switchOn">per month</span><span *ngIf="switchOn">per year</span></p>
                 </div>
             </div>
             <div class="w-72 mx-auto md:mx-0 lg:mx-auto my-10">
@@ -29,36 +30,36 @@
         </div>
 
 
-        <div class="bg-black text-white lg:w-[350px] mx-8 md:mx-10 lg:mx-0 text-center md:text-start lg:text-center md:px-10">
+        <div class="bg-black text-white  mx-8 md:mx-10 lg:mx-0 text-center md:text-start lg:text-center">
             <div class="bg-gradient-to-tr from-clrFrom via-clrvia to-clrTo w-full h-[6px]"></div>
-            <div class="flex flex-col md:flex-row md:justify-between lg:flex-col">
-                <div class="mt-14 md:mt-10 lg:mt-14 max-w-[270px]">
-                    <h4 class="font-bold text-2xl leading-[25px]">Basic</h4>
-                    <p class="mt-4 text-[15px] leading-[25px] opacity-60 px-[22px] md:px-0 lg:px-[22px]">Includes basic usage of our platform. Recommended for new and aspiring photographers.</p>
+            <div class="flex md:px-10 flex-col md:flex-row md:justify-between lg:flex-col">
+                <div class="mt-14 md:mt-10 lg:mt-20 md:max-w-[270px]">
+                    <h4 class="font-bold text-2xl leading-[25px]">Pro</h4>
+                    <p class="mt-4 text-[15px] leading-[25px] opacity-60 px-[22px] md:px-0 lg:px-[22px]">More advanced features available. Recommended for photography veterans and professionals.</p>
                 </div>
                 <div class="mt-10 md:text-end lg:text-center">
-                    <p class="text-[40px] leading-12 tracking-[4.2px] font-bold">$19.00</p>
-                    <p class="opacity-60 text-15px leading-6">per month</p>
+                    <p class="text-[40px] leading-12 tracking-[4.2px] font-bold"><span *ngIf="!switchOn">$39.00</span><span *ngIf="switchOn">$390.00</span></p>
+                    <p class="opacity-60 text-15px leading-6"><span *ngIf="!switchOn">per month</span><span *ngIf="switchOn">per year</span></p>
                 </div>
             </div>
-            <div class="w-72 mx-auto md:mx-0 lg:mx-auto my-10">
+            <div class="max-w-[270px] mx-auto md:mx-10 lg:mx-auto mt-10 mb-[71px]">
                 <app-button buttonText = "PICK PLAN" bgclr = "white"></app-button>
             </div>
         </div>
 
 
-        <div class="bg-clrpricingBg lg:w-[350px] mx-8 md:mx-10 lg:mx-0 text-center md:text-start lg:text-center md:px-10">
+        <div class="bg-clrpricingBg  mx-8 md:mx-10 lg:mx-0 text-center md:text-start lg:text-center md:px-10 lg:my-auto">
             <div class="flex flex-col md:flex-row md:justify-between lg:flex-col">
-                <div class="mt-14 md:mt-10 lg:mt-14 max-w-[270px]">
-                    <h4 class="font-bold text-2xl leading-[25px]">Basic</h4>
-                    <p class="mt-4 text-[15px] leading-[25px] opacity-60 px-[22px] md:px-0 lg:px-[22px]">Includes basic usage of our platform. Recommended for new and aspiring photographers.</p>
+                <div class="mt-14 md:mt-10 lg:mt-14 md:max-w-[270px]">
+                    <h4 class="font-bold text-2xl leading-[25px]">Business</h4>
+                    <p class="mt-4 text-[15px] leading-[25px] opacity-60 px-[22px] md:px-0 lg:px-[22px]">Additional features available such as more detailed metrics. Recommended for business owners.</p>
                 </div>
                 <div class="mt-10 md:text-end lg:text-center">
-                    <p class="text-[40px] leading-12 tracking-[4.2px] font-bold">$19.00</p>
-                    <p class="opacity-60 text-15px leading-6">per month</p>
+                    <p class="text-[40px] leading-12 tracking-[4.2px] font-bold"><span *ngIf="!switchOn">$99.00</span><span *ngIf="switchOn">$990.00</span></p>
+                    <p class="opacity-60 text-15px leading-6"><span *ngIf="!switchOn">per month</span><span *ngIf="switchOn">per year</span></p>
                 </div>
             </div>
-            <div class="w-72 mx-auto md:mx-0 lg:mx-auto my-10">
+            <div class="max-w-[270px] mx-auto md:mx-0 lg:mx-auto my-10">
                 <app-button buttonText = "PICK PLAN"></app-button>
             </div>
         </div>
@@ -66,10 +67,3 @@
 
 
 </div>
-
-
-
-
-<!-- 
-<div *ngIf="switchOn" class="text-red-600">10</div>
-<div *ngIf="!switchOn" class="text-yellow-600">20</div> -->
