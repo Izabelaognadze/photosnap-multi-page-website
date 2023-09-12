@@ -11,6 +11,9 @@ module.exports = {
         clrFrom:"#FFC593",
         clrVia:"#BC7198",
         clrTo:"#5A77FF",
+      },
+      fontFamily:{
+        'webFont': ['DM Sans;']
       }
     },
   },
