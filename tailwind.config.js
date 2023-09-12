@@ -13,7 +13,7 @@ module.exports = {
         clrTo:"#5A77FF",
       },
       fontFamily:{
-        'webFont': ['DM Sans;']
+        'webFont': ['DM Sans', 'sans-serif']
       }
     },
   },
