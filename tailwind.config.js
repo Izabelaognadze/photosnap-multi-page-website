@@ -12,9 +12,9 @@ module.exports = {
         clrVia:"#BC7198",
         clrTo:"#5A77FF",
       },
-      // fontFamily:{
-      //   'webFont': ['DM Sans', 'sans-serif']
-      // }
+      fontFamily:{
+        'webFont': ['DM Sans', 'sans-serif']
+      }
     },
   },
   plugins: [],

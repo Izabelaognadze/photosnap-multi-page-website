@@ -3,6 +3,33 @@
     <app-hero-section heroHeader="PRICING" heroParagr="Create a your stories, Photosnap is a platform for photographers and visual storytellers. It&apos;s the simple way to create and share your photos." bgClr = 'black' buttonHidden = "hidden" mobImg="../../../assets/images/pricing/mob-hero.jpg" tabImg="../../../assets/images/pricing/tab-hero.jpg" deskImg="../../../assets/images/pricing/hero.jpg"></app-hero-section>
 </div>
 <app-switch></app-switch>
-<app-compare></app-compare>
+<div class="flex flex-col mb-16 md:mb-[112px] lg:mb-40 font-webFont">
+    <h1 class="hidden md:block text-[40px] font-bold mx-auto mb-14 uppercase tracking-[4.167px] leading-[48px]">compare</h1>
+    <div class="hidden md:flex flex-col mx-10 lg:mx-auto max-w-[731px] w-full">
+        <div class="flex flex-row justify-between">
+            <div class="text-xs font-bold">THE FEATURES</div>
+            <div class="">
+                <div class="flex justify-between md:w-[420px]">
+                    <p class="uppercase text-xs font-bold tracking-[2px] leading-normal">basic</p>
+                    <p class="uppercase text-xs font-bold tracking-[2px] leading-normal">PRO</p>
+                    <p class="uppercase text-xs font-bold tracking-[2px] leading-normal">business</p>
+                </div>
+            </div>
+        </div>
+        <hr class="bg-black my-[23px] h-[2px]">
+    </div>
+    <div class="block md:hidden mx-7">
+        <p>THE FEATURES</p>
+        <hr class="bg-black h-[2px] my-[23px]">
+    </div>
+    <app-compare header="UNLIMITED STORY POSTING" basicOpacity="" proOpacity="" businessOpacity=""></app-compare>
+    <app-compare header="UNLIMITED PHOTO UPLOAD" basicOpacity="" proOpacity="" businessOpacity=""></app-compare>
+    <app-compare header="EMBEDDING CUSTOM CONTENT" basicOpacity="0" proOpacity="" businessOpacity=""></app-compare>
+    <app-compare header="CUSTOMIZE METADATA" basicOpacity="0" proOpacity="" businessOpacity=""></app-compare>
+    <app-compare header="ADVANCED METRICS" basicOpacity="0" proOpacity="0" businessOpacity=""></app-compare>
+    <app-compare header="PHOTO DOWNLOADS" basicOpacity="0" proOpacity="0" businessOpacity=""></app-compare>
+    <app-compare header="SEARCH ENGINE INDEXING" basicOpacity="0" proOpacity="0" businessOpacity=""></app-compare>
+    <app-compare header="CUSTOM ANALYTICS" basicOpacity="0" proOpacity="0" businessOpacity=""></app-compare>
+</div>
 <app-beta-section></app-beta-section>
 <app-footer></app-footer>
