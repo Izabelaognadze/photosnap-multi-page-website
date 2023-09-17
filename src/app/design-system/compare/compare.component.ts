@@ -6,7 +6,7 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./compare.component.css']
 })
 export class CompareComponent implements OnInit{
-  checked = "../../../assets/images/pricing/check.svg"
+  checked = "assets/images/pricing/check.svg"
   @Input() public basicOpacity = "";
   @Input() public proOpacity = "";
   @Input() public businessOpacity = "";

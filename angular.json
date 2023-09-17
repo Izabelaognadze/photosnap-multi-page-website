@@ -43,7 +43,8 @@
                   "maximumError": "4kb"
                 }
               ],
-              "outputHashing": "all"
+              "outputHashing": "all",
+              "baseHref": "/photosnap-multi-page-website/"
             },
             "development": {
               "buildOptimizer": false,
@@ -51,7 +52,8 @@
               "vendorChunk": true,
               "extractLicenses": false,
               "sourceMap": true,
-              "namedChunks": true
+              "namedChunks": true,
+              "baseHref": "/photosnap-multi-page-website/"
             }
           },
           "defaultConfiguration": "production"
